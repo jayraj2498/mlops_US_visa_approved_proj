@@ -2,6 +2,7 @@ To create the flowcahrt we use website :
 
 1. first we setup template.py we setup all file structures skeleton which is required for project 
 2. what are the package we are using inside the project we will mention inside the requirement.txt  file 
+    with the hel of -e we able to install particular packages also we able install us_visa as a package 
 3. create python environment  conda create -n visa python=3.11 -y  
     - conda activate visa 
 
