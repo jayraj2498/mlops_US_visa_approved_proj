@@ -1,9 +1,31 @@
 To create the flowcahrt we use website : 
 
 1. first we setup template.py we setup all file structures skeleton which is required for project 
+
 2. what are the package we are using inside the project we will mention inside the requirement.txt  file 
     with the hel of -e we able to install particular packages also we able install us_visa as a package 
+
 3. create python environment  conda create -n visa python=3.11 -y  
     - conda activate visa 
 
-4 . create
+4 . - Data base setup : mongodb atlas 
+        here we have mongodb atlas database we setup it to store data 
+        visa data --> make connectin in mongodb 
+        data ingestion -- > in that it will go to db and fetch connection through database  
+        - before doing modular coding we do notebook experiment 
+
+        mongodb -- > we create project 
+        after creating project we create cluster 
+        creted cluster0 set its name & pass jayraj2498 and also add public ip addres --> allow access from anywhere 
+        in term of connecting to cluster0 select the driver option --> select python and select version 3.6 or later 
+        also copy your connection string --> 
+        mongodb+srv://jayraj2498:jayraj2498@cluster0.a78lv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+        first -> we create database --> inside we create collection 
+        see mongodb.ipynb file . 
+
+
+
+    - logging module 
+    - exception module (own exception) 
+    - utility module 
