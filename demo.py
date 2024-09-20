@@ -1,9 +1,14 @@
 from us_visa.logger import logging 
+from us_visa.exception import USvisaException
+import sys 
 
-logging.info("Welcome to first log exp ")
-a= 2/ 2
-print(a) 
+logging.info("inside demo.py code ")
+try :
+    a= 2/2
+    print(a)  
+except Exception as e : 
+    raise USvisaException(e,sys)
 
-logging.info("run finnaly ")
+logging.info(" outside demo.py  ")
 
              

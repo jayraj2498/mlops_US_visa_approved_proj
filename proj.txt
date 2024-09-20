@@ -30,4 +30,8 @@ To create the flowcahrt we use website :
         - whenever we productionize the code in cloud , if error is encountered so you can download that log file and take action
         - we create the custom logger 
     - exception module (own exception) 
+        - to raise exception we make our own exception 
+
     - utility module 
+        - in utilility module the functionality we are using frequnetly in your code 
+        - make function use it whenever we require (reuselity)
