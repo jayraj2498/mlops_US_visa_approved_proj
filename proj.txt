@@ -27,5 +27,7 @@ To create the flowcahrt we use website :
 
 
     - logging module 
+        - whenever we productionize the code in cloud , if error is encountered so you can download that log file and take action
+        - we create the custom logger 
     - exception module (own exception) 
     - utility module 
