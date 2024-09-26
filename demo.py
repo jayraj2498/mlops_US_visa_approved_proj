@@ -1,14 +1,12 @@
 from us_visa.logger import logging 
 from us_visa.exception import USvisaException
 import sys 
+import os 
 
-logging.info("inside demo.py code ")
-try :
-    a= 2/2
-    print(a)  
-except Exception as e : 
-    raise USvisaException(e,sys)
+from us_visa.constants import  * 
 
-logging.info(" outside demo.py  ")
+from us_visa.pipline.training_pipeline import TrainPipeline 
 
-             
+obj = TrainPipeline() 
+
+obj.run_pipeline()
