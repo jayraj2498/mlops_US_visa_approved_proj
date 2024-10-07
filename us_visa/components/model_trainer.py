@@ -114,5 +114,11 @@ class ModelTrainer:
             
 
         except Exception as e :
-            raise USvisaException(e,sys) from e 
+            raise USvisaException(e,sys) from e  
+        
+        
+        
+        
+        
+        
         
