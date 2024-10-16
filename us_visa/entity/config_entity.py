@@ -74,6 +74,12 @@ class ModelPusherConfig:
     
     
 
+@dataclass
+class USvisaPredictorConfig:
+    model_file_path: str = MODEL_FILE_NAME
+    model_bucket_name: str = MODEL_BUCKET_NAME
+    
+
 
 
     
