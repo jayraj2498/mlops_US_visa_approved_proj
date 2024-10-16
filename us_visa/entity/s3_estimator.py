@@ -5,6 +5,13 @@ import sys
 from pandas import DataFrame
 
  
+ 
+ 
+# here fisrt it will get the model from production and it will check the model working fine or not 
+# here we impoting SimpleStorageService inside it we have all functinality -> we are load_model()-> save_model()-> predict model .  
+ 
+ 
+ 
 class USvisaEstimator:
     """
     This class is used to save and retrieve us_visas model in s3 bucket and to do prediction

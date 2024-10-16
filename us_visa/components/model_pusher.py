@@ -18,8 +18,8 @@ class ModelPusher:
         self.s3 = SimpleStorageService()
         self.model_evaluation_artifact = model_evaluation_artifact
         self.model_pusher_config = model_pusher_config
-        self.usvisa_estimator = USvisaEstimator(bucket_name=model_pusher_config.bucket_name,
-                                model_path=model_pusher_config.s3_model_key_path)
+        self.usvisa_estimator = USvisaEstimator(bucket_name=model_pusher_config.model_bucket_name,
+                                model_path=model_pusher_config.model_file_path)
 
     def initiate_model_pusher(self) -> ModelPusherArtifact:
         """
@@ -37,8 +37,8 @@ class ModelPusher:
             self.usvisa_estimator.save_model(from_file=self.model_evaluation_artifact.trained_model_path)
 
 
-            model_pusher_artifact = ModelPusherArtifact(bucket_name=self.model_pusher_config.bucket_name,
-                                                        s3_model_path=self.model_pusher_config.s3_model_key_path)
+            model_pusher_artifact = ModelPusherArtifact(bucket_name=self.model_pusher_config.model_bucket_name,
+                                                        s3_model_path=self.model_pusher_config.model_file_path)
 
             logging.info("Uploaded artifacts folder to s3 bucket")
             logging.info(f"Model pusher artifact: [{model_pusher_artifact}]")
