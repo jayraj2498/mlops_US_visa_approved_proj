@@ -103,12 +103,12 @@ conda activate visa
 
 
 Created a MongoDB project and cluster (Cluster0).
-Set username & password: jayraj2498.
+Set username & password: jayraj#$%959354.
 Allowed public IP access: Allow from Anywhere.
 Connection String:
 plaintext
 Copy code
-mongodb+srv://jayraj2498:jayraj2498@cluster0.a78lv.mongodb.net/?retryWrites=true& 
+mongodb+srv://jayraj24*&*:jayraj2_*98@cluster0.a78lp.mongodb.net/?retryWrites=true& 
 
 
 
