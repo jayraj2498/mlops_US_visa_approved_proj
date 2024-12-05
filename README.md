@@ -2,7 +2,7 @@
 
 # MLOps Production-Ready Machine Learning Project
 
-### 🎥 YouTube Playlist: *"MLOPs for Machine Learning"*  
+
 
 ## 📚 Tools and Resources
 
