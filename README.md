@@ -27,7 +27,7 @@ git push origin main
 
 
 # Create and activate environment
-conda create -n visa python=3.8 -y
+conda create -n visa python=3.11 -y
 conda activate visa
 
 # Install dependencies
